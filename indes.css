@@ -45,6 +45,10 @@ h1 {
   font-weight: 500;
 }
 
+#home {
+  overflow-x: hidden;
+}
+
 #jumbotron {
   background-color: rgb(233, 198, 134) !important;
   color: #162447 !important;
