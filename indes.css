@@ -96,7 +96,8 @@ h1 {
 /* Large desktop */
 @media (min-width: 1024px) {
   #location-card p {
-    height: 150px;
+    height: 200px;
+    overflow: auto;
   }
 }
 
