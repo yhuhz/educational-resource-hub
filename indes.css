@@ -22,9 +22,15 @@ body {
   font-family: 'Playfair Display';
   font-weight: 500;
   color: #162447 !important;
-  position: fixed;
-  width: 100vw;
-  z-index: 1;
+}
+
+/* Large desktop */
+@media (min-width: 1024px) {
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+  }
 }
 
 #navbar-title,
@@ -83,6 +89,9 @@ h1 {
   max-width: 700px;
 }
 
-#location-card p {
-  height: 150px;
+/* Large desktop */
+@media (min-width: 1024px) {
+  #location-card p {
+    height: 150px;
+  }
 }
