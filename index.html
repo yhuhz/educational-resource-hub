@@ -17,10 +17,257 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Local -->
+    <link rel="stylesheet" href="indes.css" />
+    <script src="index.js"></script>
   </head>
   <body>
-    <div id="home"></div>
-    <div id="categories"></div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="navbar-title">Alexandria</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid px-0" id="home">
+      <div class="p-4 p-md-5 mb-4 text-white" id="jumbotron">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 mt-3">
+            Empowering Minds: Learn Anytime, Anywhere
+          </h1>
+          <p class="lead my-3">
+            Discover a world of knowledge at your fingertips, where learning is
+            accessible, engaging, and tailored to your needs.
+          </p>
+          <a class="btn">Discover Courses >></a>
+        </div>
+      </div>
+
+      <div class="row px-5 mb-2" id="blog-cards">
+        <div class="col-md-6" id="blog-post">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">
+                <span class="alexandria-text">Alexandria</span> goes worldwide
+              </h3>
+              <p class="card-text my-auto">
+                Be part of our journey to make education universally accessible.
+                We are now accredited online, ensuring the highest standards of
+                quality and recognition for our courses.
+              </p>
+              <a href="#" class="stretched-link">Enroll Now</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="https://img.freepik.com/free-photo/man-working-kitchen-home-quarantine-with-laptop_23-2148740917.jpg?semt=ais_hybrid&w=740"
+                width="200"
+                height="250"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" id="blog-post">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success"
+                >Customer Support</strong
+              >
+              <h3 class="mb-0">24/7 Online</h3>
+              <p class="my-auto">
+                Our dedicated team is here to assist you anytime, ensuring your
+                learning experience is seamless and enjoyable. Reach out to us
+                for any inquiries or support.
+              </p>
+              <a href="#" class="stretched-link">Contact Us</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="https://www.shutterstock.com/image-photo/professional-mature-business-woman-manager-600nw-2424450135.jpg"
+                width="200"
+                height="250"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mx-5" />
+
+    <!-- Categories -->
+    <div id="categories" class="container-fluid">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Course Options</h1>
+        <p class="fs-5 text-muted">
+          Explore our flexible pricing plans designed to meet your learning
+          needs. Choose the plan that works best for you and start your
+          educational journey today.
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center px-5">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Scribe</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>5 starter courses included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a type="button" class="w-100 btn btn-lg btn-outline-primary">
+                Sign up for free
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Scholar</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 courses included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a type="button" class="w-100 btn btn-lg btn-primary">
+                Get started
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Chief</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 courses included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <a type="button" class="w-100 btn btn-lg btn-primary">
+                Contact us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+      <div class="table-responsive">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th style="width: 34%"></th>
+              <th style="width: 22%">Free</th>
+              <th style="width: 22%">Pro</th>
+              <th style="width: 22%">Enterprise</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Starter Courses</th>
+              <td>✔</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Certifications</th>
+              <td></td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <th scope="row" class="text-start">Starter Tools</th>
+              <td>✔</td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Premium Tools</th>
+              <td></td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">Advanced Analytics</th>
+              <td></td>
+              <td>✔</td>
+              <td>✔</td>
+            </tr>
+            <tr>
+              <th scope="row" class="text-start">1-on-1 mentoring</th>
+              <td></td>
+              <td></td>
+              <td>✔</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
     <div id="about"></div>
   </body>
 </html>

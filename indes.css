@@ -1,0 +1,71 @@
+/* Main Colors */
+/* linear-gradient(to right, #0A1F44, #D6D5D5) */
+/* #162447 */
+/* #E4C590 */
+/* #FAF3E0 */
+
+body {
+  overflow-x: hidden;
+  font-family: Inter;
+  background-color: #faf3e0;
+  color: #162447;
+}
+
+.navbar {
+  background-color: rgb(233, 198, 134) !important;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  color: #162447 !important;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+#navbar-title,
+.alexandria-text {
+  background: linear-gradient(to right, #0a1f44, #d6d5d5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-weight: 500;
+}
+
+#jumbotron {
+  background-color: rgb(233, 198, 134) !important;
+  color: #162447 !important;
+}
+
+#jumbotron a {
+  border: none;
+  background-color: #162447;
+  color: #faf3e0;
+}
+
+#jumbotron a:hover {
+  border: none;
+  background-color: #faf3e0;
+  color: #162447;
+}
+
+#blog-cards h3 {
+  font-family: 'Playfair Display';
+}
+
+#blog-post {
+  transition: all 0.3s ease-in-out;
+}
+
+#blog-post:hover {
+  transform: scale(1.01);
+}
+
+#categories {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
