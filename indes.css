@@ -4,6 +4,12 @@
 /* #E4C590 */
 /* #FAF3E0 */
 
+html {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 body {
   overflow-x: hidden;
   font-family: Inter;
@@ -38,7 +44,8 @@ h1 {
   color: #162447 !important;
 }
 
-#jumbotron a {
+#jumbotron a,
+#location-button {
   border: none;
   background-color: #162447;
   color: #faf3e0;
@@ -46,6 +53,12 @@ h1 {
 
 #jumbotron a:hover {
   border: none;
+  background-color: #faf3e0;
+  color: #162447;
+}
+
+#location-button:hover {
+  border: 1px solid #162447;
   background-color: #faf3e0;
   color: #162447;
 }
