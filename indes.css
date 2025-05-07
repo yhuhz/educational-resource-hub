@@ -95,3 +95,44 @@ h1 {
     height: 150px;
   }
 }
+
+/* for setting custom bootstrap */
+.card-header {
+  background-color: rgba(233, 198, 134, 0.5) !important;
+}
+
+.bg-primary {
+  background-color: #162447 !important;
+}
+
+.border-primary {
+  border-color: #162447 !important;
+}
+
+.card-body {
+  background-color: rgba(250, 243, 224, 0.3) !important;
+}
+
+.btn-outline-primary {
+  border: 1px solid #162447 !important;
+  background-color: rgba(250, 243, 224, 0.3);
+  color: #162447 !important;
+}
+
+.btn-outline-primary:hover {
+  border: 1px solid #faf3e0 !important;
+  background-color: #162447;
+  color: #faf3e0 !important;
+}
+
+.btn-primary {
+  border: 1px solid #faf3e0 !important;
+  background-color: #162447;
+  color: #faf3e0 !important;
+}
+
+.btn-primary:hover {
+  border: 1px solid #162447 !important;
+  background-color: rgba(250, 243, 224, 0.3);
+  color: #162447 !important;
+}
