@@ -49,19 +49,18 @@ h1 {
   overflow-x: hidden;
 }
 
-#jumbotron {
+#introduction {
   background-color: rgb(233, 198, 134) !important;
   color: #162447 !important;
 }
 
-#jumbotron a,
-#location-button {
+#introduction a {
   border: none;
   background-color: #162447;
   color: #faf3e0;
 }
 
-#jumbotron a:hover {
+#introduction a:hover {
   border: none;
   background-color: #faf3e0;
   color: #162447;
@@ -73,7 +72,7 @@ h1 {
   color: #162447;
 }
 
-#blog-cards h3 {
+#featured h3 {
   font-family: 'Playfair Display';
 }
 
@@ -85,20 +84,12 @@ h1 {
   transform: scale(1.01);
 }
 
-#categories {
+#categories-section {
   max-width: 960px;
 }
 
 .pricing-header {
   max-width: 700px;
-}
-
-/* Large desktop */
-@media (min-width: 1024px) {
-  #location-card p {
-    height: 200px;
-    overflow: auto;
-  }
 }
 
 /* for setting custom bootstrap */
@@ -140,4 +131,51 @@ h1 {
   border: 1px solid #162447 !important;
   background-color: rgba(250, 243, 224, 0.3);
   color: #162447 !important;
+}
+
+/* Mission & Contact Sections */
+.mission,
+.contact {
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 40px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Mission Section */
+.mission {
+  background: linear-gradient(135deg, #f0d9b5 40%, #faf3e0);
+
+  box-shadow: 0px 5px 15px rgba(240, 217, 181, 0.3);
+}
+
+/* Contact Section */
+.contact {
+  background: linear-gradient(135deg, #e4c7a0 40%, #faf3e0);
+
+  box-shadow: 0px 5px 15px rgba(228, 199, 160, 0.3);
+}
+
+/* Section Headers */
+.mission h2,
+.contact h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #162447 !important;
+}
+
+/* Paragraph Styling */
+.mission p,
+.contact p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Hover Effect */
+.mission:hover,
+.contact:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
